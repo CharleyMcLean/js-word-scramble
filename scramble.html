@@ -22,7 +22,8 @@
 
             alert(randomScrambled);
 
-            var answer = prompt("Unscramble the word:");
+            var answer = prompt("Unscramble the word:").trim().toLowerCase();
+            console.log(answer)
 
             if (answer === randomWord) {
                 console.log ("Good job! You got it!");
@@ -34,7 +35,7 @@
 
 
             // Returns a random number between min (inclusive) and max (exclusive)
-            
+
             // Grab a random word from the WORDS array
 
             // Grab the corresponding scrambled word from the SCRAMBLED array
